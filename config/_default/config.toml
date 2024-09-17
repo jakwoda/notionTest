@@ -1,4 +1,16 @@
 baseURL = "https://jakwoda.github.io/notionTest/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "waterlike™blog"
 theme = "PaperMod"
+
+[params.homeInfoParams]
+Title = "💙"
+Content = "Can be Info, links, about..."
+
+[[params.socialIcons]]
+name = "website"
+url = "https://www.waterlike.world"
+
+[[params.socialIcons]]
+name = "instagram"
+url = "https://www.instagram.com/waterlike.world"
