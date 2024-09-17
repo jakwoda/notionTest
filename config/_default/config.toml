@@ -24,6 +24,11 @@ ShowShareButtons = true
 [outputs]
 home = [ "HTML", "RSS", "JSON" ]
 
+[cover]
+image = "<image path/url>"
+alt = "<alt text>"
+caption = "<text>"
+relative = false
 
 
 [[menu.main]]
