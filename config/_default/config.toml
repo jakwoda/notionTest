@@ -14,3 +14,35 @@ url = "https://www.waterlike.world"
 [[params.socialIcons]]
 name = "instagram"
 url = "https://www.instagram.com/waterlike.world"
+
+[params]
+ShowBreadCrumbs = true
+ShowReadingTime = true
+ShowToc = true
+ShowShareButtons = true
+
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
+
+
+
+[[menu.main]]
+identifier = "tags"
+name = "tags"
+url = "/tags/"
+weight = 20
+
+[[menu.main]]
+identifier = "search"
+name = "search"
+url = "/search/"
+weight = 30
+
+
+[[menu.main]]
+identifier = "example"
+name = "waterlike.world"
+url = "https://waterlike.world"
+weight = 40
+
+
