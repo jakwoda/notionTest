@@ -25,9 +25,6 @@ ShowShareButtons = true
 home = [ "HTML", "RSS", "JSON" ]
 
 [cover]
-image = "imgs/cover.png"
-alt = "The alt text"
-caption = ""
 relative = false
 hidden = false
 hiddenInList = false
