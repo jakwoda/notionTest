@@ -1,6 +1,6 @@
 baseURL = "https://jakwoda.github.io/notionTest/"
 languageCode = "en-us"
-title = "waterlike™blog"
+title = "source.waterlike™"
 theme = "PaperMod"
 
 [params.homeInfoParams]
@@ -25,10 +25,18 @@ ShowShareButtons = true
 home = [ "HTML", "RSS", "JSON" ]
 
 [cover]
-image = "<image path/url>"
-alt = "<alt text>"
-caption = "<text>"
+image = "imgs/cover.png"
+alt = "The alt text"
+caption = ""
 relative = false
+hidden = false
+hiddenInList = false
+hiddenInSingle = false
+
+
+[params.cover]
+responsiveImages = false
+
 
 
 [[menu.main]]
@@ -49,5 +57,6 @@ identifier = "example"
 name = "waterlike.world"
 url = "https://waterlike.world"
 weight = 40
+
 
 
