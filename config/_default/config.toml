@@ -24,15 +24,13 @@ ShowShareButtons = true
 [outputs]
 home = [ "HTML", "RSS", "JSON" ]
 
-[cover]
+
+[params.cover]
+responsiveImages = false
 relative = false
 hidden = false
 hiddenInList = false
 hiddenInSingle = false
-
-
-[params.cover]
-responsiveImages = false
 
 
 
