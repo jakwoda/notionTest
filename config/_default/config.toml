@@ -21,17 +21,28 @@ ShowReadingTime = true
 ShowToc = true
 ShowShareButtons = true
 
-[outputs]
-home = [ "HTML", "RSS", "JSON" ]
-
-
 [params.cover]
-responsiveImages = false
+image = "cover.png"
+alt = "thumb do post"
+caption = "<text>"
 relative = false
 hidden = false
 hiddenInList = false
-hiddenInSingle = false
+responsiveImages = false
 
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
+
+[cover]
+image = "./favicon.ico"
+alt = "thumb do post"
+caption = "<text>"
+relative = false
+hidden = false
+hiddenInList = false
+
+[params.assets]
+favicon = "/favicon.ico"  # Changed from "favicon.ico"
 
 
 [[menu.main]]
