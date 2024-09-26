@@ -33,13 +33,6 @@ responsiveImages = false
 [outputs]
 home = [ "HTML", "RSS", "JSON" ]
 
-[cover]
-image = "./favicon.ico"
-alt = "thumb do post"
-caption = "<text>"
-relative = false
-hidden = false
-hiddenInList = false
 
 [params.assets]
 favicon = "/favicon.ico"  # Changed from "favicon.ico"
